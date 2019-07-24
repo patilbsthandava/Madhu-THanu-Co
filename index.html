@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html>
+<title>Madhu & Thanu Co</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
 
+<div class="topnav" id="myTopnav">
+ <div class="logo">
+     <img src="image/MT Logog WO Background.png" alt="Logo-M&T">
+ </div>
+   <a href="#contact-us.html">Contact Us</a>
+   <a href="#producs.html">Products</a>
+   <a href="#about-us.html">About Us</a>   
+   <a href="#home.html" class="active">Home</a>  
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {x.className = "topnav";
+  }
+}
+</script>
+<div class="w3-container"></div>
+<div class="w3-content w3-display-container" style="max-width:100%">
+  <img class="mySlides" src="image/Banner%2001.png" style="width:98%;border-radius: 15px;margin-left: 1%;">
+  <img class="mySlides" src="image/Banner%2002.png" style="width:98%;border-radius: 15px;margin-left: 1%;">
+  <img class="mySlides" src="image/Banner%2003.png" style="width:98%;border-radius: 15px;margin-left: 1%;">
+  <img class="mySlides" src="image/Banner%2004.png" style="width:98%;border-radius: 15px;margin-left: 1%;">
+  <img class="mySlides" src="image/Banner%2005.png" style="width:98%;border-radius: 15px;margin-left: 1%;">
+  <img class="mySlides" src="image/Banner%2006.png" style="width:98%;border-radius: 15px;margin-left: 1%;">
+  <img class="mySlides" src="image/Banner%2007.png" style="width:98%;border-radius: 15px;margin-left: 1%;">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:95%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+<div class="About-spices-containre">
+   <div class="aboutspices-background">
+    <div class="about-spices">
+       <h1>About Spices </h1>
+       </div>
+       <p>India is home of spices and herbs like “Black pepper” “Cinnamon” “Turmeric” “Cardamom” & “Ginger” has been used by Indians from thousands of years for both cooking and health purposes. 
+<br>
+Most of the Indian food consists Spices and herbs which gives food unique taste, delicious aroma, and unique color all of this gives perfect tasty food which only found in Indian foods. The secret of the delicious flavor of Indian food is its rich spices and all over the world Indian spices are known as world’s best spices in taste.
+<br>
+Spices in India are not only used in food, they also used to cure illnesses also, They flatter our sense smell with delicious fragrance, tongue with unique taste and eyes with vibrant colors, At present time, India is one of the largest exporters of spice all over the world. The environment of India is perfect heavy humidity, high rainfall, dry and hot weather favors the conditions for growth of different spices.
+Spices like ginger, turmeric, and fenugreek are used as medicines from ancient times. The ayurvedic scripts mention about these spices. Ginger prevents indigestion, turmeric cures stomach sores and provides glowing skin and pepper act as an antihistamine.
+<br>
+Apart from above functions, spice also prevents rotting of food. They slow down the growth of bacteria and aids in preservation. There are many places in India where people still preserve their food through this technique due to unavailability of electricity. Some spices like cloves, fennels and cardamom are used as mouth refreshing agents and they are used all over the world. These spices aids in proper digestion curb nausea and prevent heartburn in the body.
+<br>
+Spices are not just confined to Indians only, they are famous globally. Western people also started to add them to their dishes. People are using them for medicinal purpose too, that stimulated the agriculture industry.</p>    
+   </div> 
+</div>
+   
+   <div class="footer-containre" style="width:98%;border-radius: 15px; margin-left: 1%;">
+    <div class="footer-quick-contact">
+<table>
+  <tr>
+    <th><h3>COMPANY</h3></th>
+    <th><h3>PRODUCTS</h3></th> 
+    <th><h3>CONTACT US</h3></th>
+  </tr>
+ <tr>
+    <th><a href="home.html"style="text-decoration: none;color:white;">Home</a></th>
+     <th><a href="cardamom.html"style="text-decoration: none;color:white;">Cardamom</a></th> 
+     <th><a href="contact-us.html"style="text-decoration: none;color:white;">Product Inquiries</a></th>
+  </tr>
+ <tr>
+     <th><a href="about-us.html"style="text-decoration: none;color:white;">About Us</a></th>
+     <th><a href="turmeric.html"style="text-decoration: none;color:white;">Turmeric</a></th> 
+     <th><a href="contact-us.html"style="text-decoration: none;color:white;">Contact</a></th>
+  </tr>
+ <tr>
+     <th><a href="products.html"style="text-decoration: none;color:white;">Products</a></th>
+     <th><a href="dry-ginger.html"style="text-decoration: none;color:white;">Dry Ginger</a></th> 
+    <th></th>
+  </tr>
+ <tr>
+     <th><a href="contact-us.html"style="text-decoration: none;color:white;">Contact Us</a></th>
+     <th><a href="fresh-ginger.html"style="text-decoration: none;color:white;">Fresh Ginger</a></th> 
+    <th></th>
+  </tr>
+ <tr>
+     <th><a href="export-import.html"style="text-decoration: none;color:white;">Export & Import</a></th>
+     <th><a href="black-pepper.html"style="text-decoration: none;color:white;">Black Pepper</a></th> 
+    <th></th>
+  </tr>
+ <tr>
+     <th><a href="madhu-photography.html"style="text-decoration: none;color:white;">Madhu Photography</a></th>
+     <th><a href="clove.html"style="text-decoration: none;color:white;">Clove</a></th> 
+    <th></th>
+  </tr>
+ <tr>
+    <th></th>
+     <th><a href="cinnamon.html"style="text-decoration: none;color:white;">Cinnamon</a></th> 
+    <th></th>
+  </tr>
+   <tr>
+    <th></th>
+       <th><a href="dry-mace.html"style="text-decoration: none;color:white;">Dry Mace</a></th> 
+    <th></th>
+  </tr>
+   <tr>
+    <th></th>
+       <th><a href="fenugreek.html"style="text-decoration: none;color:white;">Fenugreek</a></th> 
+    <th></th>
+  </tr>
+   <tr>
+    <th></th>
+       <th><a href="cumin-seeds.html"style="text-decoration: none;color:white;">Cumin Seeds</a></th> 
+    <th></th>
+  </tr>
+     <tr>
+    <th></th>
+         <th><a href="coriander.html"style="text-decoration: none;color:white;">Coriander</a></th> 
+    <th></th>
+  </tr>
+     <tr>
+    <th></th>
+         <th><a href="contact-us.html"style="text-decoration: none;color:white;">Powder Spice</a></th> 
+    <th></th>
+  </tr>
+</table>
+
+<div Class="footer">
+  <p1>Follow Us On social media.</p1>
+  <br>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-skype"></a>
+ <br>
+  <p2>&copy; 2019 Madhu & Thanu Co. All rights reserved</p2>
+</div>
+</div>
+</div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
